@@ -4,6 +4,6 @@ namespace ProductAPI.Repositories
 {
     public interface ICategoryRepository
     {
-        IEnumerable<Category> getAll(); 
+        IEnumerable<Category> GetAll();
     }
 }

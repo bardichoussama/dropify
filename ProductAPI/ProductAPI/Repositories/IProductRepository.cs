@@ -5,10 +5,10 @@ namespace ProductAPI.Repositories
     public interface IProductRepository
     {
         IEnumerable<Product> GetAll();
-        //Product GetById(int id);
-        //void Add(Product product);
-        //void Update(Product product);
-        //void DeleteById(int id);
+        Product GetById(int id);
+        void Add(Product product);
+        void Update(Product product);
+        void DeleteById(int id);
 
         //Task<IEnumerable<Product>> GetAllAsync();
         //Task<Product?> GetByIdAsync(int id);
